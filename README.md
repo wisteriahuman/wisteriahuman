@@ -1,2 +1,2 @@
 # Hi there 👋
-## Visit &rarr [wisteria-io.com](https://wisteria-io.com/)
+## Visit :arrow_right: [wisteria-io.com](https://wisteria-io.com/)
