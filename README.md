@@ -5,5 +5,5 @@
 🌐 [wisteria-io.com](https://wisteria-io.com) · 🐦 [@wisteria_man](https://x.com/wisteria_man) · ⌨️ [AtCoder](https://atcoder.jp/users/wisteriahuman)
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wisteriahuman" />
+  <img src="https://github-readme-stats-sigma-two-72.vercel.app/api/top-langs/?username=wisteriahuman&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
