@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="{{f .L.Height}}" viewBox="0 0 840 {{f .L.Height}}" role="img" font-family="{{.Font}}">
+  <title>最近書いた記事</title>
+  {{- range $i, $r := .L.Rows}}
+  {{- if $i}}
+  <line x1="24" y1="{{f (add $r.Y -28)}}" x2="816" y2="{{f (add $r.Y -28)}}" stroke="{{$.P.Border}}" stroke-width="1"/>
+  {{- end}}
+  <text x="24" y="{{f $r.Y}}" font-size="13" fill="{{$.P.InkMuted}}">{{x $r.Item.Date}}</text>
+  <text x="130" y="{{f $r.Y}}" font-size="16" font-weight="600" fill="{{$.P.Ink}}">{{x $r.Title}}</text>
+  {{- end}}
+</svg>

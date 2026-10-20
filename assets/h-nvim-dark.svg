@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="40" viewBox="0 0 840 40" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>Neovim プラグイン</title>
+  <circle cx="44" cy="22" r="4" fill="#c3aef0"/>
+  <text x="56" y="27" font-size="15" font-weight="700" fill="#c3aef0">Neovim プラグイン</text>
+</svg>

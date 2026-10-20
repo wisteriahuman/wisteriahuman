@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="56" viewBox="0 0 840 56" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>最近書いた記事</title>
+  <circle cx="16" cy="18" r="6" fill="#6f529c"/>
+  <circle cx="16" cy="31" r="5" fill="#6f529c" opacity="0.75"/>
+  <circle cx="16" cy="42" r="4" fill="#6f529c" opacity="0.5"/>
+  <text x="36" y="36" font-size="22" font-weight="700" fill="#1d1f24">最近書いた記事</text>
+  <line x1="36" y1="50" x2="836" y2="50" stroke="#efe9f7" stroke-width="3" stroke-linecap="round"/>
+</svg>

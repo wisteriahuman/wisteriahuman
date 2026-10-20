@@ -1,0 +1,4 @@
+[
+  { "repo": "p2hacks2025/pre-03", "paths": ["apps/worker/", "apps/api/"] },
+  { "repo": "jphacks/sp_2502", "paths": ["web/src/server/"] }
+]

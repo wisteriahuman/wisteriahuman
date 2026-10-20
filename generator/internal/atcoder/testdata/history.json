@@ -1,0 +1,6 @@
+[
+ {"IsRated": true, "Place": 10154, "OldRating": 0, "NewRating": 5, "Performance": -174, "ContestName": "AtCoder Beginner Contest 351", "EndTime": "2024-04-27T22:40:00+09:00"},
+ {"IsRated": true, "Place": 3000, "OldRating": 1200, "NewRating": 1351, "Performance": 1700, "ContestName": "AtCoder Beginner Contest 420", "EndTime": "2025-08-24T22:40:00+09:00"},
+ {"IsRated": true, "Place": 4000, "OldRating": 1351, "NewRating": 1300, "Performance": 1100, "ContestName": "AtCoder Beginner Contest 425", "EndTime": "2025-09-27T22:40:00+09:00"},
+ {"IsRated": false, "Place": 9012, "OldRating": 1300, "NewRating": 1300, "Performance": 0, "ContestName": "AtCoder Beginner Contest 432", "EndTime": "2025-11-15T22:40:00+09:00"}
+]

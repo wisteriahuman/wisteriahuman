@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="116.0" viewBox="0 0 840 116.0" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>最近書いた記事</title>
+  <text x="24" y="40.0" font-size="13" fill="#a7abb6">2026-10-01</text>
+  <text x="130" y="40.0" font-size="16" font-weight="600" fill="#e6e4ec">エラーは値である</text>
+  <line x1="24" y1="60.0" x2="816" y2="60.0" stroke="#3a3150" stroke-width="1"/>
+  <text x="24" y="88.0" font-size="13" fill="#a7abb6">2026-09-20</text>
+  <text x="130" y="88.0" font-size="16" font-weight="600" fill="#e6e4ec">Neovim 入門 その3</text>
+</svg>

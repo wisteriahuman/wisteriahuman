@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="170" viewBox="0 0 410 170" role="img" font-family="{{.Font}}">
+  <title>{{x .D.Title}}</title>
+  <rect x="1" y="1" width="408" height="168" rx="14" fill="{{.P.Surface}}" stroke="{{.P.Border}}" stroke-width="2"/>
+  <rect x="1" y="24" width="5" height="40" rx="2.5" fill="{{.P.Accent}}"/>
+  <text x="24" y="42" font-size="13" font-weight="600" fill="{{.P.Accent}}">{{x (trunc .D.Subtitle 20)}}</text>
+  <text x="386" y="42" font-size="12" text-anchor="end" fill="{{.P.InkMuted}}">{{x .D.Meta}}</text>
+  <text x="24" y="70" font-size="20" font-weight="700" fill="{{.P.Ink}}">{{x (trunc .D.Title 18)}}</text>
+  {{- range $i, $l := lines .D.Body 3}}
+  <text x="24" y="{{if eq $i 0}}102{{else if eq $i 1}}124{{else}}146{{end}}" font-size="14" fill="{{$.P.InkMuted}}">{{x (trunc $l 24)}}</text>
+  {{- end}}
+</svg>

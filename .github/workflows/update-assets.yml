@@ -1,0 +1,49 @@
+name: update-assets
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # 毎日 06:00 JST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["generator/**"]
+
+permissions:
+  contents: write
+
+concurrency: update-assets
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: generator
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: generator/go.mod
+      - run: go test ./...
+      - id: generate
+        # 失敗した画像は前回のまま残る。書けた分はコミットしてから、最後にジョブを失敗させる
+        continue-on-error: true
+        run: go run . -out ../assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: commit
+        working-directory: .
+        run: |
+          git add assets
+          if git diff --cached --quiet; then
+            echo "変更なし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update generated assets"
+          git push
+      - if: steps.generate.outcome == 'failure'
+        run: |
+          echo "::error::一部の画像を更新できなかった（前回のまま）。generate の出力を確認する"
+          exit 1

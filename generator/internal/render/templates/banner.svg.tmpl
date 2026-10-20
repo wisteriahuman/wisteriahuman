@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200" role="img" font-family="{{.Font}}">
+  <title>{{x .D.Name}} / {{x .D.Handle}}</title>
+  <rect x="1" y="1" width="838" height="198" rx="16" fill="{{.P.Surface}}" stroke="{{.P.Border}}" stroke-width="2"/>
+  <path d="M600 14 Q705 4 810 14" fill="none" stroke="{{.P.InkMuted}}" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  {{- range .L}}
+  <circle cx="{{f .X}}" cy="{{f .Y}}" r="{{f .R}}" fill="{{$.P.Accent}}" opacity="{{f .Opacity}}"/>
+  {{- end}}
+  <text x="40" y="58" font-size="14" font-weight="600" fill="{{.P.Accent}}" letter-spacing="1">Hello, I'm</text>
+  <text x="40" y="100" font-size="36" font-weight="700" fill="{{.P.Ink}}">{{x .D.Name}}<tspan fill="{{.P.Accent}}" font-weight="600">&#160;/ {{x .D.Handle}}</tspan></text>
+  <text x="40" y="136" font-size="15" fill="{{.P.InkMuted}}">{{x .D.Affiliation}}</text>
+  <text x="40" y="166" font-size="16" font-weight="600" fill="{{.P.Pen}}">{{x .D.Tagline}}</text>
+</svg>

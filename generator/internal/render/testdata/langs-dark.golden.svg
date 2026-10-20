@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="104.0" viewBox="0 0 840 104.0" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>よく書く言語</title>
+  <defs><clipPath id="bar"><rect x="24" y="24" width="792" height="14" rx="7"/></clipPath></defs>
+  <g clip-path="url(#bar)">
+    <rect x="24.0" y="24" width="316.8" height="14" fill="#00ADD8"/>
+    <rect x="340.8" y="24" width="277.2" height="14" fill="#3178c6"/>
+    <rect x="618.0" y="24" width="198.0" height="14" fill="#8b8b8b"/>
+  </g>
+  <circle cx="30.0" cy="71.0" r="6" fill="#00ADD8"/>
+  <text x="42.0" y="76.0" font-size="14" fill="#e6e4ec">Go <tspan fill="#a7abb6">40.0%</tspan></text>
+  <circle cx="228.0" cy="71.0" r="6" fill="#3178c6"/>
+  <text x="240.0" y="76.0" font-size="14" fill="#e6e4ec">TypeScript <tspan fill="#a7abb6">35.0%</tspan></text>
+  <circle cx="426.0" cy="71.0" r="6" fill="#8b8b8b"/>
+  <text x="438.0" y="76.0" font-size="14" fill="#e6e4ec">その他 <tspan fill="#a7abb6">25.0%</tspan></text>
+</svg>

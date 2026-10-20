@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="72" viewBox="0 0 200 72" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>yajiuma.nvim</title>
+  <rect x="1" y="1" width="198" height="70" rx="12" fill="#ffffff" stroke="#e3dcef" stroke-width="2"/>
+  <text x="18" y="32" font-size="15" font-weight="700" fill="#1d1f24">yajiuma.nvim</text>
+  <circle cx="22" cy="50" r="4" fill="#6f529c"/>
+  <text x="32" y="54" font-size="12" fill="#4f5560">Lua</text>
+</svg>

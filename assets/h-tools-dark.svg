@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="56" viewBox="0 0 840 56" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>道具づくり</title>
+  <circle cx="16" cy="18" r="6" fill="#c3aef0"/>
+  <circle cx="16" cy="31" r="5" fill="#c3aef0" opacity="0.75"/>
+  <circle cx="16" cy="42" r="4" fill="#c3aef0" opacity="0.5"/>
+  <text x="36" y="36" font-size="22" font-weight="700" fill="#e6e4ec">道具づくり</text>
+  <line x1="36" y1="50" x2="836" y2="50" stroke="#2a2338" stroke-width="3" stroke-linecap="round"/>
+</svg>

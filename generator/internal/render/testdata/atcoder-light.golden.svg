@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="220" viewBox="0 0 840 220" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>AtCoder wisteriahuman: レート 1351</title>
+  <rect x="1" y="1" width="838" height="218" rx="16" fill="#ffffff" stroke="#e3dcef" stroke-width="2"/>
+  <text x="40" y="56" font-size="13" font-weight="600" fill="#6f529c">AtCoder · wisteriahuman</text>
+  <text x="40" y="112" font-size="48" font-weight="700" fill="#1d1f24">1351</text>
+  <rect x="40" y="126" width="180" height="6" rx="3" fill="#00C0C0"/>
+  <text x="40" y="160" font-size="14" fill="#4f5560">最高 1351 ・ 参加 47 回</text>
+  <line x1="320" y1="180.0" x2="800" y2="180.0" stroke="#e3dcef" stroke-width="1"/>
+  <line x1="320" y1="145.0" x2="800" y2="145.0" stroke="#e3dcef" stroke-width="1"/>
+  <line x1="320" y1="110.0" x2="800" y2="110.0" stroke="#e3dcef" stroke-width="1"/>
+  <line x1="320" y1="75.0" x2="800" y2="75.0" stroke="#e3dcef" stroke-width="1"/>
+  <line x1="320" y1="40.0" x2="800" y2="40.0" stroke="#e3dcef" stroke-width="1"/>
+  <polyline points="320.0,171.2 440.0,145.0 560.0,110.0 680.0,83.8 800.0,61.8" fill="none" stroke="#6f529c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="800.0" cy="61.8" r="6" fill="#00C0C0" stroke="#ffffff" stroke-width="2"/>
+</svg>

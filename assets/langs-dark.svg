@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="164.0" viewBox="0 0 840 164.0" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>よく書く言語</title>
+  <defs><clipPath id="bar"><rect x="24" y="24" width="792" height="14" rx="7"/></clipPath></defs>
+  <g clip-path="url(#bar)">
+    <rect x="24.0" y="24" width="373.6" height="14" fill="#3178c6"/>
+    <rect x="397.6" y="24" width="116.6" height="14" fill="#4f5fd0"/>
+    <rect x="514.2" y="24" width="98.0" height="14" fill="#3572A5"/>
+    <rect x="612.2" y="24" width="67.6" height="14" fill="#00ADD8"/>
+    <rect x="679.8" y="24" width="46.6" height="14" fill="#ff3e00"/>
+    <rect x="726.4" y="24" width="43.4" height="14" fill="#89e051"/>
+    <rect x="769.8" y="24" width="26.1" height="14" fill="#f1e05a"/>
+    <rect x="795.9" y="24" width="8.3" height="14" fill="#ff5a03"/>
+    <rect x="804.3" y="24" width="11.7" height="14" fill="#8b8b8b"/>
+  </g>
+  <circle cx="30.0" cy="71.0" r="6" fill="#3178c6"/>
+  <text x="42.0" y="76.0" font-size="14" fill="#e6e4ec">TypeScript <tspan fill="#a7abb6">47.2%</tspan></text>
+  <circle cx="228.0" cy="71.0" r="6" fill="#4f5fd0"/>
+  <text x="240.0" y="76.0" font-size="14" fill="#e6e4ec">Lua <tspan fill="#a7abb6">14.7%</tspan></text>
+  <circle cx="426.0" cy="71.0" r="6" fill="#3572A5"/>
+  <text x="438.0" y="76.0" font-size="14" fill="#e6e4ec">Python <tspan fill="#a7abb6">12.4%</tspan></text>
+  <circle cx="624.0" cy="71.0" r="6" fill="#00ADD8"/>
+  <text x="636.0" y="76.0" font-size="14" fill="#e6e4ec">Go <tspan fill="#a7abb6">8.5%</tspan></text>
+  <circle cx="30.0" cy="101.0" r="6" fill="#ff3e00"/>
+  <text x="42.0" y="106.0" font-size="14" fill="#e6e4ec">Svelte <tspan fill="#a7abb6">5.9%</tspan></text>
+  <circle cx="228.0" cy="101.0" r="6" fill="#89e051"/>
+  <text x="240.0" y="106.0" font-size="14" fill="#e6e4ec">Shell <tspan fill="#a7abb6">5.5%</tspan></text>
+  <circle cx="426.0" cy="101.0" r="6" fill="#f1e05a"/>
+  <text x="438.0" y="106.0" font-size="14" fill="#e6e4ec">JavaScript <tspan fill="#a7abb6">3.3%</tspan></text>
+  <circle cx="624.0" cy="101.0" r="6" fill="#ff5a03"/>
+  <text x="636.0" y="106.0" font-size="14" fill="#e6e4ec">Astro <tspan fill="#a7abb6">1.1%</tspan></text>
+  <circle cx="30.0" cy="131.0" r="6" fill="#8b8b8b"/>
+  <text x="42.0" y="136.0" font-size="14" fill="#e6e4ec">その他 <tspan fill="#a7abb6">1.5%</tspan></text>
+</svg>

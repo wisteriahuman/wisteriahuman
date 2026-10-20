@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="{{f .L.Height}}" viewBox="0 0 840 {{f .L.Height}}" role="img" font-family="{{.Font}}">
+  <title>よく書く言語</title>
+  <defs><clipPath id="bar"><rect x="24" y="24" width="792" height="14" rx="7"/></clipPath></defs>
+  <g clip-path="url(#bar)">
+  {{- range .L.Segments}}
+    <rect x="{{f .X}}" y="24" width="{{f .W}}" height="14" fill="{{.Color}}"/>
+  {{- end}}
+  </g>
+  {{- range .L.Legend}}
+  <circle cx="{{f (add .X 6)}}" cy="{{f (add .Y -5)}}" r="6" fill="{{.Item.Color}}"/>
+  <text x="{{f (add .X 18)}}" y="{{f .Y}}" font-size="14" fill="{{$.P.Ink}}">{{x .Item.Name}} <tspan fill="{{$.P.InkMuted}}">{{f .Item.Percent}}%</tspan></text>
+  {{- end}}
+</svg>
