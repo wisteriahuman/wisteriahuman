@@ -13,7 +13,7 @@ type image struct {
 var staticImages = []image{
 	{"banner", "banner", render.Banner{
 		Name: "藤井 優気", Handle: "wisteria",
-		Affiliation: "公立はこだて未来大学 情報アーキテクチャ学科 2年",
+		Affiliation: "公立はこだて未来大学 情報アーキテクチャ学科 3年（28卒）",
 		Tagline:     "バックエンドと競技プログラミングが好き",
 	}},
 	{"h-works", "heading", render.Heading{Title: "つくったもの"}},

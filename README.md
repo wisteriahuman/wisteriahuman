@@ -1,6 +1,6 @@
 <!-- 画像は generator/ が生成する。文言を変えるときは generator/profile.go を編集する -->
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><img src="assets/banner-light.svg" alt="藤井 優気 / wisteria。公立はこだて未来大学 情報アーキテクチャ学科 2年。バックエンドと競技プログラミングが好き" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><img src="assets/banner-light.svg" alt="藤井 優気 / wisteria。公立はこだて未来大学 情報アーキテクチャ学科 3年（28卒）。バックエンドと競技プログラミングが好き" width="100%"></picture>
 </p>
 
 <br>
