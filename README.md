@@ -47,6 +47,14 @@
 
 <br>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-articles-dark.svg"><img src="assets/h-articles-light.svg" alt="最近書いた記事" width="100%"></picture>
+
+<p align="center">
+<a href="https://wisteria-io.com/blog/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/articles-dark.svg"><img src="assets/articles-light.svg" alt="wisteria-io の最近書いた記事" width="100%"></picture></a>
+</p>
+
+<br>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-links-dark.svg"><img src="assets/h-links-light.svg" alt="リンク" width="100%"></picture>
 
 <p align="center">

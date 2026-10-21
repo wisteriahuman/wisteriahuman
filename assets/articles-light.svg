@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="164.0" viewBox="0 0 840 164.0" role="img" font-family="Inter, 'Hiragino Sans', 'Noto Sans CJK JP', system-ui, sans-serif">
+  <title>最近書いた記事</title>
+  <text x="24" y="40.0" font-size="13" fill="#4f5560">2026-03-30</text>
+  <text x="130" y="40.0" font-size="16" font-weight="600" fill="#1d1f24">Neovim入門 Part 3: lazy.nvimでプラグイン管理</text>
+  <line x1="24" y1="60.0" x2="816" y2="60.0" stroke="#e3dcef" stroke-width="1"/>
+  <text x="24" y="88.0" font-size="13" fill="#4f5560">2026-03-29</text>
+  <text x="130" y="88.0" font-size="16" font-weight="600" fill="#1d1f24">Neovim入門 Part 2: init.luaとLuaの基礎</text>
+  <line x1="24" y1="108.0" x2="816" y2="108.0" stroke="#e3dcef" stroke-width="1"/>
+  <text x="24" y="136.0" font-size="13" fill="#4f5560">2026-03-29</text>
+  <text x="130" y="136.0" font-size="16" font-weight="600" fill="#1d1f24">Neovim入門 Part 1: Neovimとは何か</text>
+</svg>

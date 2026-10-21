@@ -28,7 +28,7 @@ jobs:
       - id: generate
         # 失敗した画像は前回のまま残る。書けた分はコミットしてから、最後にジョブを失敗させる
         continue-on-error: true
-        run: go run . -out ../assets
+        run: go run . -out ../assets -feed https://wisteria-io.com/rss.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: commit
